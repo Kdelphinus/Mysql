@@ -1,0 +1,9 @@
+--이름이 있는 동물 아이디를 오름차순으로 출력
+SELECT
+    ANIMAL_ID
+FROM
+    ANIMAL_INS
+WHERE
+    NAME IS NOT NULL
+ORDER BY
+    ANIMAL_ID ASC
