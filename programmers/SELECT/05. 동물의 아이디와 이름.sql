@@ -1,0 +1,8 @@
+-- ANIMAL_ID와 NAME을 ANIMAL_ID를 기준으로 오름차순 정렬하여 출력
+SELECT
+    ANIMAL_ID,
+    NAME
+FROM
+    ANIMAL_INS
+ORDER BY
+    ANIMAL_ID
