@@ -1,0 +1,5 @@
+-- DATETIME의 최솟값 출력
+SELECT
+    MIN(DATETIME)
+FROM
+    ANIMAL_INS

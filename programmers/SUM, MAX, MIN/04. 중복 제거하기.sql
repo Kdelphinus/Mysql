@@ -1,0 +1,5 @@
+-- NAME에서 중복과 NULL을 제거한 이름의 개수
+SELECT
+    COUNT(DISTINCT NAME)
+FROM
+    ANIMAL_INS
