@@ -1,0 +1,7 @@
+-- ANIMAL_ID를 오름차순하여 모든 정보 출력
+SELECT
+    *
+FROM
+    ANIMAL_INS
+ORDER BY
+    ANIMAL ID ACS
