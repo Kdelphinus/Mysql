@@ -1,0 +1,9 @@
+SELECT
+    ANIMAL_ID,
+    NAME,
+    -- DATETIME -> DATE로 / 연도-월-일 표시
+    DATE_FORMAT(DATETIME, '%Y-%m-%d') AS '날짜'
+FROM
+    ANIMAL_INS
+ORDER BY
+    ANIMAL_ID ASC
